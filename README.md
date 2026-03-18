@@ -1,4 +1,4 @@
-# Pedro Lucas
+# Pedro Lucas Francisco
 
 Estudante de Sistemas Inteligentes na FATEC Pompeia. 
 Focado na transição da área industrial e infraestrutura para Análise de Dados, IA e Sistemas Ciberfísicos.

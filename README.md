@@ -69,5 +69,5 @@ Minha jornada começou "no chão de fábrica" e na infraestrutura técnica:
 - **Local:** Pompeia / SP
 
 <p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=HdzZ01&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
+  <img src="https://github-readme-stats.vercel.app/api?username=plfrancisco&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
 </p>

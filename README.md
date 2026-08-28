@@ -1,31 +1,46 @@
 # Pedro Lucas Francisco
 
-Curso Tecnologia em Sistemas Inteligentes na FATEC Pompeia, com foco em IA, desenvolvimento de software e dados. Atualmente estagio no Laboratório de Solos da Fundação Shunji Nishimura. Antes de migrar pra tecnologia, passei alguns anos na indústria — foi lá que peguei gosto por entender como as coisas funcionam de verdade.
+Estudante de **Tecnologia em Sistemas Inteligentes** na FATEC Pompeia (3º semestre), com foco em IA, desenvolvimento de software e dados. Atualmente estagio no Laboratório de Solos da Fundação Shunji Nishimura. Antes de migrar pra tecnologia, passei alguns anos na indústria — foi lá que peguei gosto por entender como as coisas funcionam de verdade.
+
+📌 **Aberto a oportunidades de estágio / vaga júnior** em desenvolvimento (Python/back-end) ou dados.
 
 ---
 
-### Stack que uso no dia a dia
+### Stack
 
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=flat&logo=fastapi&logoColor=white)
-![React](https://img.shields.io/badge/React-61DAFB?style=flat&logo=react&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white)
-![LangChain](https://img.shields.io/badge/LangChain-1C3C3C?style=flat&logo=langchain&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-4169E1?style=flat&logo=postgresql&logoColor=white)
+**Linguagens:** Python · TypeScript
+**Back-end:** FastAPI · Pydantic · SQLAlchemy · WebSockets
+**Front-end:** React · TanStack · Vite · Tailwind
+**Dados / IA:** pandas · NumPy · Plotly · LangChain · LangGraph · LightGBM
+**Infra / dados:** Docker · Docker Compose · PostgreSQL · MySQL
 
 ---
 
 ### Projetos em destaque
 
-**Síntegra Twin** — digital twin com agentes de IA para previsão de demanda.
-Orquestro os agentes com LangGraph e LangChain, usando os modelos Gemini (Google GenAI). O forecast roda em LightGBM, com NumPy/SciPy dando suporte aos cálculos. O backend é FastAPI + Pydantic, o ETL usa pandas e SQLAlchemy sobre PostgreSQL, e o frontend é React 19 com TanStack Start/Router, Vite, TypeScript e Tailwind. Tudo sobe via Docker Compose.
+#### Síntegra Twin — digital twin com agentes de IA para previsão de demanda
+`Projeto corporativo · código privado` — desenvolvido em colaboração com a **Síntegra** (Grupo Jacto).
 
-**IoT Fish Farming Simulator** — simulador de monitoramento de sensores para piscicultura, em Python. Nasceu de um projeto de automação/IoT aplicado à aquicultura.
+- **O que faz:** orquestra agentes de IA que geram previsões de demanda a partir do histórico de vendas.
+- **Stack:** LangGraph + LangChain com modelos Gemini, forecast em LightGBM, back-end FastAPI + Pydantic, ETL com pandas e SQLAlchemy sobre PostgreSQL, front-end React 19 (TanStack, Vite, Tailwind). Docker Compose.
 
-**Hospital Data Analytics** — painel interativo pra explorar dados hospitalares. Feito em Python com Pandas e Streamlit/Plotly.
+#### [ZelaMapa](https://github.com/plfrancisco/ZelaMapa) — plataforma GovTech de zeladoria urbana &nbsp;·&nbsp; [demo](https://zela-mapa.vercel.app)
+- **O que faz:** cidadãos reportam ocorrências no mapa; gestores despacham e equipes de campo acompanham as ordens de serviço em tempo real.
+- **Meu papel:** projeto solo, full-stack.
+- **Destaques técnicos:** atualização em tempo real via WebSockets, controle de acesso por papel (admin / motorista / cadastrador) e logs de auditoria.
+- **Stack:** FastAPI + WebSockets, MySQL, React + TypeScript + Vite + Tailwind, banco via Docker.
 
-**ZelaMapa** — plataforma de gestão urbana, para reporte e acompanhamento de ocorrências. Frontend em React + TypeScript, backend em Python, tudo containerizado com Docker.
+#### [IoT Fish Farming Simulator](https://github.com/plfrancisco/iot-fish-farming-simulator) — simulador de dados de sensores para piscicultura
+- **O que faz:** gera leituras realistas de tanques (temperatura, pH, oxigênio) e injeta "crises de oxigênio" para servir de base a análises posteriores.
+- **Meu papel:** projeto solo.
+- **Destaques técnicos:** modelagem estatística com NumPy (ciclo senoidal de temperatura + ruído correlacionado), inserção em lote com `executemany` e controle de transações (commit/rollback) contra PostgreSQL/Neon.
+- **Stack:** Python · NumPy · psycopg2 · PostgreSQL.
+
+#### [Hospital Data Analytics](https://github.com/plfrancisco/hospital-data-analytics) — painel interativo de dados hospitalares
+- **O que faz:** dashboard que cobre 9 áreas de análise (volume de atendimentos, recursos, processos, geografia, perfil demográfico).
+- **Meu papel:** projeto solo — análise e visualização.
+- **Destaques técnicos:** instalação automática de dependências e execução com um comando (`streamlit run app_dashboard.py`); mapas com Folium.
+- **Stack:** Python · pandas · Streamlit · Plotly · Folium.
 
 ---
 
@@ -40,7 +55,3 @@ Comecei no chão de fábrica: na **Jacto**, trabalhei com metrologia e usinagem,
 - LinkedIn: [pedro-lucas-francisco](https://www.linkedin.com/in/pedro-lucas-francisco)
 - Email: f.pedrolucas.2002@gmail.com
 - Pompeia / SP
-
-<p align="center">
-  <img src="https://github-readme-stats.vercel.app/api?username=plfrancisco&show_icons=true&theme=dracula&include_all_commits=true&count_private=true" alt="GitHub Stats" />
-</p>

@@ -8,11 +8,9 @@ Estudante de **Tecnologia em Sistemas Inteligentes** na FATEC Pompeia (3º semes
 
 ### Stack
 
-**Linguagens:** Python · TypeScript
-**Back-end:** FastAPI · Pydantic · SQLAlchemy · WebSockets
-**Front-end:** React · TanStack · Vite · Tailwind
-**Dados / IA:** pandas · NumPy · Plotly · LangChain · LangGraph · LightGBM
-**Infra / dados:** Docker · Docker Compose · PostgreSQL · MySQL
+Python · pandas · NumPy · LangChain · LangGraph · LightGBM · FastAPI · PostgreSQL · Docker
+
+_As tecnologias específicas de cada projeto (React, TypeScript, Streamlit, etc.) estão descritas abaixo._
 
 ---
 

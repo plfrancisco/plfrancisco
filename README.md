@@ -28,11 +28,11 @@ _As tecnologias específicas de cada projeto (React, TypeScript, Streamlit, etc.
 - **Destaques técnicos:** atualização em tempo real via WebSockets, controle de acesso por papel (admin / motorista / cadastrador) e logs de auditoria.
 - **Stack:** FastAPI + WebSockets, MySQL, React + TypeScript + Vite + Tailwind, banco via Docker.
 
-#### [IoT Fish Farming Simulator](https://github.com/plfrancisco/iot-fish-farming-simulator) — simulador de dados de sensores para piscicultura
-- **O que faz:** gera leituras realistas de tanques (temperatura, pH, oxigênio) e injeta "crises de oxigênio" para servir de base a análises posteriores.
-- **Meu papel:** projeto solo.
-- **Destaques técnicos:** modelagem estatística com NumPy (ciclo senoidal de temperatura + ruído correlacionado), inserção em lote com `executemany` e controle de transações (commit/rollback) contra PostgreSQL/Neon.
-- **Stack:** Python · NumPy · psycopg2 · PostgreSQL.
+#### [TrapSight](https://github.com/plfrancisco/trapsight) — visão computacional para medir a saturação de armadilhas adesivas
+- **O que faz:** analisa a foto de uma armadilha adesiva, calcula quanto da superfície já está coberta por insetos e estima em quantos dias ela vai saturar, trocando a inspeção manual por um critério objetivo.
+- **Meu papel:** projeto integrador (Fatec), em desenvolvimento, feito a partir de um problema levantado com uma empresa real do setor.
+- **Destaques técnicos:** segmentação em 3 classes com U-Net (encoder ResNet34, transfer learning); dataset sintético primeiro, com avaliação separada em sintético e real; baseline clássico em OpenCV para comparação; projeção do dia de saturação por regressão.
+- **Stack:** Python · PyTorch · OpenCV · FastAPI · React · TypeScript · PostgreSQL · Docker.
 
 #### [Hospital Data Analytics](https://github.com/plfrancisco/hospital-data-analytics) — painel interativo de dados hospitalares
 - **O que faz:** dashboard que cobre 9 áreas de análise (volume de atendimentos, recursos, processos, geografia, perfil demográfico).

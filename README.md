@@ -28,11 +28,17 @@ _As tecnologias específicas de cada projeto (React, TypeScript, Streamlit, etc.
 - **Destaques técnicos:** atualização em tempo real via WebSockets, controle de acesso por papel (admin / motorista / cadastrador) e logs de auditoria.
 - **Stack:** FastAPI + WebSockets, MySQL, React + TypeScript + Vite + Tailwind, banco via Docker.
 
-#### [TrapSight](https://github.com/plfrancisco/trapsight) — visão computacional para medir a saturação de armadilhas adesivas
+#### [TrapSight](https://github.com/plfrancisco/trapsight-pi3) — visão computacional para medir a saturação de armadilhas adesivas &nbsp;·&nbsp; [demo](https://trapsight-pi3.vercel.app)
 - **O que faz:** analisa a foto de uma armadilha adesiva, calcula quanto da superfície já está coberta por insetos e estima em quantos dias ela vai saturar, trocando a inspeção manual por um critério objetivo.
 - **Meu papel:** projeto integrador (Fatec), em desenvolvimento, feito a partir de um problema levantado com uma empresa real do setor.
 - **Destaques técnicos:** segmentação em 3 classes com U-Net (encoder ResNet34, transfer learning); dataset sintético primeiro, com avaliação separada em sintético e real; baseline clássico em OpenCV para comparação; projeção do dia de saturação por regressão.
 - **Stack:** Python · PyTorch · OpenCV · FastAPI · React · TypeScript · PostgreSQL · Docker.
+
+#### [Predição de doença cardíaca](https://github.com/plfrancisco/Pipeline_Heart_Failure) — pipeline de ciência de dados com API pública &nbsp;·&nbsp; [API](https://heart-failure-api-jred.onrender.com/docs)
+- **O que faz:** prevê a presença de doença cardíaca a partir de 11 dados clínicos de 918 pacientes e serve o modelo por uma API REST.
+- **Meu papel:** projeto final da disciplina Aplicação de Ciência de Dados (Fatec), em grupo de 3.
+- **Destaques técnicos:** três atributos novos, seleção por Rank e PCA, três modelos comparados por validação cruzada e Regressão Logística otimizada com `GridSearchCV` (89,7% de acurácia e 92,2% de recall em 184 pacientes de teste); o pré-processamento e o modelo ficam em um único `Pipeline`, que a API reaproveita.
+- **Stack:** Python · scikit-learn · pandas · FastAPI · Docker · Render.
 
 #### [Hospital Data Analytics](https://github.com/plfrancisco/hospital-data-analytics) — painel interativo de dados hospitalares
 - **O que faz:** dashboard que cobre 9 áreas de análise (volume de atendimentos, recursos, processos, geografia, perfil demográfico).
